@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7299DDCC24289D5C00FA4C33 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7299DDCB24289D5C00FA4C33 /* Story.swift */; };
+		7299DDCE2428A00900FA4C33 /* StoryBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7299DDCD2428A00900FA4C33 /* StoryBrain.swift */; };
 		AD6F1CCE20EBD3FC00198C34 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD6F1CCD20EBD3FC00198C34 /* README.md */; };
 		EBB1C7411B9633A60011F5C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB1C7401B9633A60011F5C3 /* AppDelegate.swift */; };
 		EBB1C7431B9633A60011F5C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB1C7421B9633A60011F5C3 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7299DDCB24289D5C00FA4C33 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		7299DDCD2428A00900FA4C33 /* StoryBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBrain.swift; sourceTree = "<group>"; };
 		AD6F1CCD20EBD3FC00198C34 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EBB1C73B1B9633A60011F5C3 /* Destini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Destini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBB1C73F1B9633A60011F5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,13 +41,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		720B882422C85F94003F1EB0 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		720B882522C85F99003F1EB0 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +68,15 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7299DDCA24289D5300FA4C33 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7299DDCB24289D5C00FA4C33 /* Story.swift */,
+				7299DDCD2428A00900FA4C33 /* StoryBrain.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		EBB1C7321B9633A60011F5C3 = {
 			isa = PBXGroup;
 			children = (
@@ -91,8 +97,8 @@
 		EBB1C73D1B9633A60011F5C3 /* Destini */ = {
 			isa = PBXGroup;
 			children = (
+				7299DDCA24289D5300FA4C33 /* Model */,
 				720B882622C85F9D003F1EB0 /* Controller */,
-				720B882422C85F94003F1EB0 /* Model */,
 				720B882722C85FA2003F1EB0 /* Supporting Files */,
 				720B882522C85F99003F1EB0 /* View */,
 			);
@@ -173,8 +179,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7299DDCE2428A00900FA4C33 /* StoryBrain.swift in Sources */,
 				EBB1C7431B9633A60011F5C3 /* ViewController.swift in Sources */,
 				EBB1C7411B9633A60011F5C3 /* AppDelegate.swift in Sources */,
+				7299DDCC24289D5C00FA4C33 /* Story.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
