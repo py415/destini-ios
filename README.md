@@ -21,7 +21,7 @@ Destini is a “choose your own adventure” game similar to the App Store hit �
 
 Here's a GIF of how the app works:
 
-<img src="ADD_GIF_LINK" width=250><br>
+<img src="https://i.imgur.com/uZuGC1I.gif" width=250><br>
 
 ## Credits
 
