@@ -1,18 +1,28 @@
+# Destini
 
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
+## Table of Contents
+1. [Overview](#Overview)
+2. [Product Spec](#Product-Spec)
+3. [App Walkthrough](#App-Walkthrough)
+4. [Credits](#Credits)
 
-#  Destini
+## Overview
+### Description
 
-## Our Goal
+Destini is a “choose your own adventure” game similar to the App Store hit “Life Line” app. The app will tell a story depending on what the user chooses and can be fleshed out and modified to provide an engaging story-telling experience.
 
-The goal of this tutorial is to get you comfortable with thinking about the state of your app and updating the Views accordingly. In addition, you will be using logic to control the flow of the program. This is a challenge where you’ll solidify your understanding of IF-ELSE statements and comparison operators.
+## Product Spec
+### User Stories
 
-## What you will create
+- [X] User shall be able to select from 2 choices to continue their storyline.
+- [X] user shall be able to reset their destiny by clicking a restart button.
 
-In this app, you will be creating a “choose your own adventure” game similar to the App Store hit “Life Line” app. The app will tell a story depending on what the user chooses and can be fleshed out and modified to provide an engaging story-telling experience
+## App Walkthrough
 
+Here's a GIF of how the app works:
 
+<img src="ADD_GIF_LINK" width=250><br>
+
+## Credits
 
 >This is a companion project to The App Brewery's Complete App Developement Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
-
-![End Banner](Documentation/readme-end-banner.png)
