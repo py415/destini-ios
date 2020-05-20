@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		726E43252467521A007A3677 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 726E43242467521A007A3677 /* LaunchScreen.storyboard */; };
+		7236A7932474EBBA00C75D97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7236A7912474EBBA00C75D97 /* LaunchScreen.storyboard */; };
 		7299DDCC24289D5C00FA4C33 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7299DDCB24289D5C00FA4C33 /* Story.swift */; };
 		7299DDCE2428A00900FA4C33 /* StoryBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7299DDCD2428A00900FA4C33 /* StoryBrain.swift */; };
 		AD6F1CCE20EBD3FC00198C34 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD6F1CCD20EBD3FC00198C34 /* README.md */; };
@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		726E43242467521A007A3677 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7236A7922474EBBA00C75D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7299DDCB24289D5C00FA4C33 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		7299DDCD2428A00900FA4C33 /* StoryBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBrain.swift; sourceTree = "<group>"; };
 		AD6F1CCD20EBD3FC00198C34 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				EBB1C7471B9633A60011F5C3 /* Images.xcassets */,
-				726E43242467521A007A3677 /* LaunchScreen.storyboard */,
+				7236A7912474EBBA00C75D97 /* LaunchScreen.storyboard */,
 				EBB1C7441B9633A60011F5C3 /* Main.storyboard */,
 			);
 			path = View;
@@ -167,8 +167,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBB1C7461B9633A60011F5C3 /* Main.storyboard in Resources */,
+				7236A7932474EBBA00C75D97 /* LaunchScreen.storyboard in Resources */,
 				AD6F1CCE20EBD3FC00198C34 /* README.md in Resources */,
-				726E43252467521A007A3677 /* LaunchScreen.storyboard in Resources */,
 				EBB1C7481B9633A60011F5C3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,6 +211,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		7236A7912474EBBA00C75D97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7236A7922474EBBA00C75D97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		EBB1C7441B9633A60011F5C3 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

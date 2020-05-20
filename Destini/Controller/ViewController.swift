@@ -10,21 +10,24 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    // Outlets
+    // MARK: - Outlets
     @IBOutlet weak var topButton: UIButton!         // Has TAG = 1
     @IBOutlet weak var bottomButton: UIButton!      // Has TAG = 2
     @IBOutlet weak var storyTextView: UILabel!
     @IBOutlet weak var restartButton: UIButton!
     
-    // Properties
+    // MARK: - Properties
     var storyBrain = StoryBrain()
     
     override func viewDidLoad() {
         
         super.viewDidLoad()
+        
         updateUI()
         
     }
+    
+    // MARK: - IBAction Section
     
     // User presses one of the buttons
     @IBAction func buttonPressed(_ sender: UIButton) {
@@ -43,7 +46,9 @@ class ViewController: UIViewController {
         
     }
     
-    func updateUI() {
+    // MARK: - Private Function Section
+    
+    private func updateUI() {
         
         if storyBrain.storyIndex != -1 {
             storyTextView.text = storyBrain.getStoryTitle()
