@@ -21,8 +21,8 @@ Destini is a “choose your own adventure” game similar to the App Store hit �
 
 Here's a GIF of how the app works:
 
-<img src="https://user-images.githubusercontent.com/35745973/81485035-2dd76400-91ff-11ea-8151-799768ac5e02.gif" width=250><br>
+<img src="https://user-images.githubusercontent.com/35745973/81485035-2dd76400-91ff-11ea-8151-799768ac5e02.gif" width=250>
 
 ## Credits
 
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+>This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/).
