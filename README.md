@@ -15,7 +15,7 @@ Destini is a “choose your own adventure” game similar to the App Store hit �
 ### User Stories
 
 - [X] User shall be able to select from 2 choices to continue their storyline.
-- [X] user shall be able to reset their destiny by clicking a restart button.
+- [X] User shall be able to reset their destiny by clicking a restart button.
 
 ## App Walkthrough
 
